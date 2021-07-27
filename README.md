@@ -36,3 +36,7 @@ In the second terminal run the following command
 
 - `npm run build-prod && npm start`-
 
+### Step 6: Now you are ready to use the project
+
+Enter a counrty name in the form text area then select start and end date
+press Generate trip and wait for the response from the APIs
