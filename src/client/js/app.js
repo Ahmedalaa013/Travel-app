@@ -16,7 +16,7 @@ async function travelForm(event) {
     alert("weather forcast shows only 16 days ahead");
   }
   // ---------------------Geo Endpoint--------------------------------------------
-  const geoRes = await fetch("https://.netlify/functions/geo", {
+  const geoRes = await fetch("https://.netlify/functions/:splat", {
     method: "POST",
     credentials: "same-origin",
     headers: {
