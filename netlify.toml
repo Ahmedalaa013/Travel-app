@@ -2,6 +2,6 @@
  functions="functions"
 
  [[redirects]]
- from="/*"
+ from="/.netlify/functions/:geo"
  to="`http://api.geonames.org/searchJSON?q=${city}&username=${username}`"
  status=200
