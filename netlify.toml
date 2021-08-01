@@ -1,7 +1,0 @@
-[build]
- functions="functions"
-
- [[redirects]]
- from="/.netlify/functions/:geo"
- to="`http://api.geonames.org/searchJSON?q=${city}&username=${username}`"
- status=200
